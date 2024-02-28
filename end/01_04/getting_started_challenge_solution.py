@@ -15,8 +15,8 @@ class Card:
 if __name__ == "__main__":
     card1 = Card("Ace", "Spades")
     card2 = Card("Queen", "Hearts")
-    card3 = Card("Queen", "Hearts")
-    card4 = Card("Queen", "Hearts")
+    card3 = Card("Jack", "Clubs")
+    card4 = Card("Three", "Diamonds")
 
     print(card1)
     print(card2)
