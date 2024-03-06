@@ -28,7 +28,7 @@ class BankAccount:
         if balance >= 0:
             self._balance = balance
         else:
-            print("Error: Balance must be non-zero.")
+            print("Error: Balance must be non-negative.")
 
 
 # Example usage
